@@ -73,6 +73,7 @@
         .delay-400 { animation-delay: 400ms; opacity: 0; }
         .delay-500 { animation-delay: 500ms; opacity: 0; }
         .delay-600 { animation-delay: 600ms; opacity: 0; }
+        .delay-700 { animation-delay: 700ms; opacity: 0; }
     </style>
 </head>
 <body class="min-h-screen text-slate-200 font-sans flex items-center justify-center relative overflow-hidden p-4 sm:p-8">
@@ -90,8 +91,6 @@
             <div class="relative w-28 h-28 rounded-full p-1 bg-gradient-to-tr from-primary to-secondary flex items-center justify-center">
                 <div class="w-full h-full bg-dark rounded-full overflow-hidden flex items-center justify-center border-2 border-dark">
                     
-                    <!-- !!! محل قرار دادن عکس شما !!! -->
-                    <!-- وقتی عکست رو توی گیت هاب گذاشتی، مقدار src رو به اسم عکست مثلا profile.jpg تغییر بده -->
                     <img src="20260810_225850.jpg" alt="امیرمحمد وهاب نژاد" class="w-full h-full object-cover">
                     
                 </div>
@@ -135,7 +134,19 @@
                 <i class="ph ph-caret-left text-slate-500 group-hover:text-cyan-400 transition-colors relative z-10"></i>
             </a>
 
-            <a href="tel:+989999034326" class="btn-link group flex items-center justify-between w-full p-4 rounded-2xl border border-slate-700/50 bg-slate-800/40 animate-fade-in-up delay-500 relative overflow-hidden">
+            <!-- ایمیل -->
+            <a href="mailto:amirm.vahabnezhad2006@gmail.com" class="btn-link group flex items-center justify-between w-full p-4 rounded-2xl border border-slate-700/50 bg-slate-800/40 animate-fade-in-up delay-500 relative overflow-hidden">
+                <div class="flex items-center gap-4 relative z-10">
+                    <div class="w-12 h-12 rounded-xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center group-hover:bg-indigo-500 group-hover:text-white transition-all duration-300 shadow-inner">
+                        <i class="ph ph-envelope-simple text-2xl"></i>
+                    </div>
+                    <span class="text-slate-200 font-semibold text-[1.05rem]">ارسال ایمیل</span>
+                </div>
+                <i class="ph ph-caret-left text-slate-500 group-hover:text-cyan-400 transition-colors relative z-10"></i>
+            </a>
+
+            <!-- تماس تلفنی (آخرین گزینه) -->
+            <a href="tel:+989999034326" class="btn-link group flex items-center justify-between w-full p-4 rounded-2xl border border-slate-700/50 bg-slate-800/40 animate-fade-in-up delay-600 relative overflow-hidden">
                 <div class="flex items-center gap-4 relative z-10">
                     <div class="w-12 h-12 rounded-xl bg-teal-500/10 text-teal-400 flex items-center justify-center group-hover:bg-teal-500 group-hover:text-white transition-all duration-300 shadow-inner">
                         <i class="ph ph-phone-call text-2xl"></i>
@@ -148,7 +159,7 @@
         </div>
         
         <!-- Footer -->
-        <div class="mt-10 animate-fade-in-up delay-600">
+        <div class="mt-10 animate-fade-in-up delay-700">
             <p class="text-xs text-slate-500 tracking-wider">
                  برای دسترسی بی‌دردسر قندشکن رو فراموش نکنید
                </p> 
